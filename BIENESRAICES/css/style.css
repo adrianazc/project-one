@@ -4,11 +4,28 @@ html {
 body{
    font-family: 'Lato',sans-serif;
    font-size: 1.6rem;
+   line-height: 2;
 }
 /** Globales **/
 .contenedor{
   max-width: 120rem;
   margin: 0 auto;
+}
+h1{
+font-size: 3.8rem;
+}
+h2{
+font-size: 3.4rem;
+}
+h3{
+font-size: 3rem;
+}
+h4{
+font-size: 2.6rem;
+}
+/** utilidades **/
+.seccion{
+
 }
 /* Header */
 .site-header.inicio{
@@ -48,4 +65,13 @@ margin-right: 2rem;
 }
 .navegacion a:last-of-type{
   margin: 0;
+}
+/** iconos nosotros **/
+.iconos-nosotros{
+  display: flex;
+  justify-content: space-between;
+}
+.icono{
+  flex-basis: calc(33.3% - 1rem);
+  text-align: center;
 }
