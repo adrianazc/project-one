@@ -316,5 +316,12 @@ h4 {
 }
 .testimonial .blockquote::before{
   content:'';
-  background-image: 
+  background-image:
+}
+
+/**INTERNAS **/
+
+.contenido-nostros{
+  display: grid;
+  grid-template-columns: 50 % 50%;
 }
